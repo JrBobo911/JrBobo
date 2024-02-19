@@ -1,42 +1,130 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@font-face {
+  font-family: chibold;
+  src: url(../public/fonts/chibold.ttf);
+}
+@font-face {
+  font-family: demo1;
+  src: url(../public/fonts/Yokelvision.otf);
+}
+@font-face {
+  font-family: demo2;
+  src: url(../public/fonts/Balsamiq.ttf);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+body{
+  font-family: demo2;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.chibold{
+  font-family: chibold;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.demo1{
+  font-family: demo1;
+}
+.demo2{
+  font-family: demo2;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.stroke1{
+  -webkit-text-stroke: 1px #000000;
+}
+.stroke2{
+  -webkit-text-stroke: 2px #000000;
+}
+.stroke3{
+  -webkit-text-stroke: 2px #000000;
+}
+.stroke1:hover{
+  -webkit-text-stroke: 1px #ffffff;
+}
+.stroke2:hover{
+  -webkit-text-stroke: 2px #ffffff;
+}
+.stroke3:hover{
+  -webkit-text-stroke: 3px #ffffff;
+}
+.green-shadow{
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.35), 0px 4px 21px rgba(211, 230, 51, 0.86);
+}
+.slider{
+  padding-top: 2.5vw;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+@media (max-width: 600px){
+.slider{  padding-top: 2.5vw;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;}
+}
+
+.slide-track {
+  display: flex;
+  width: calc(25vw * 18);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translate(0);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+      transform: translate(calc(-25vw * 9));
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.slide-track1 {
+  display: flex;
+  width: calc(25vw * 18);
+  animation: scrolling 40s linear infinite alternate-reverse;
+}
+
+.slide-track1:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrolling {
+  0% {
+      transform: translate(0);
+  }
+  100% {
+      transform: translate(calc(-25vw * 9));
   }
 }
 
-.card {
-  padding: 2em;
+.slide {
+  height: 20vw;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+@media (max-width: 600px){
+  .slide{  
+    width: 25vw;
+  }
+  }
+
+.slide img {
+  width: 100%;
 }
 
-.read-the-docs {
-  color: #888;
+.slide img:hover {
+  transform: translateZ(20px);
+  transition: transform 1s;
 }

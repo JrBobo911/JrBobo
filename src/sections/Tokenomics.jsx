@@ -10,7 +10,7 @@ const Tokenomics = () => {
           TOKENOMICS
         </div>
         <div className="text-[#FFBC25] text-[4vw] md:text-[2vw] font-normal">
-          69,000,000,000,000 - Total Supply
+          69,000,000,000 - Total Supply
         </div>
 
         <div className="flex justify-center items-center flex-col md:flex-row">

@@ -7,7 +7,7 @@ const About = () => {
         ABOUT US
       </div>
       <div className="text-center opacity-100 md:opacity-60 text-[#ffffffb3] text-[3.5vw] md:text-[1.4vw]">
-        Bobo the Bear is a meme character associated with bear markets. The
+        Bobo the Bear Jr. is a meme character associated with bear markets. The
         design of Bobo is based on Apu Apustaja, and sometimes Pepe the Frog.
         The name “Bobo“ was chosen in June 2018, and has become the official
         name for the character. Bobo is posted worldwide on Twitter, 4chan, but

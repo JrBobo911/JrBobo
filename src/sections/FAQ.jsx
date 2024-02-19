@@ -32,12 +32,12 @@ const FAQs = () => {
       <div className="w-full flex justify-between items-center border-b border-[#ffffff1a] py-[3vw] md:py-[1vw]">
         <div className="w-[80%] flex flex-col items-start justify-start">
           <div className="text-center  text-[#fff] text-[3vw] md:text-[2vw]">
-            What‘s so special about Bobo the Bear?
+            What‘s so special about Bobo the Bear Jr.?
           </div>
           <div>
             {item1 && (
               <div className="text-start opacity-60 text-[#ffffffb3] text-[2.5vw] md:text-[1.5vw]">
-                Bobo the Bear is great liberator of the financial markets. When
+                Bobo the Bear Jr. is great liberator of the financial markets. When
                 times get rough, Bobo shines the brightest. Bobo memes make us
                 laugh in the darkest of times.
               </div>

@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="flex flex-col justify-between items-center md:flex-row md:justify-center md:items-center border-b md:border-b-2 border-[#ffffff1a] p-[2vw] pt-[15vw] md:pt-[5vw] md:pb-[1vw] w-full">
       <div className="w-full flex flex-col justify-center items-center md:flex-row md:items-center md:justify-start md:gap-2">
         <div className="chibold text-theme stroke1 md:text-stroke-black-1-5 text-[5vw] md:text-[3vw] leading-[-1.76px] transition-all duration-1000">
-          BOBO THE BEAR
+          BOBO THE BEAR Jr
         </div>
 
         {/* ------ Navigation ----- */}
@@ -62,14 +62,14 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-end items-center">
-        <a href="/" target="_blank">
+        <a href="https://twitter.com/BoboJr_SOL" target="_blank">
           <img
             src={TwitterImg}
             alt="Twitter"
             className="w-[40px] md:w-[55px]"
           />
         </a>
-        <a href="/" target="_blank">
+        <a href="https://t.me/BoboJr_SOL" target="_blank">
           <img
             src={TelegramImg}
             alt="Telegram"

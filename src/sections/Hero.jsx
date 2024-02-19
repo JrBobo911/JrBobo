@@ -8,10 +8,10 @@ const Hero = () => {
     <div className="bg-hero-image w-full bg-cover bg-center bg-no-repeat h-[85vh] bg-scroll">
       <Header />
       <div className="pt-[10vw] w-full flex justify-center items-center flex-col">
-        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke1 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center">
+        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke1 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center h1Animation">
           LET`S GET THIS 
         </div>    
-        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke1 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center">
+        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke1 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center h1Animation">
            HONEY
         </div>    
         <div className="flex justify-center items-center flex-col md:flex-row">

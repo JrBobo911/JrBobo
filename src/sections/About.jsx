@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const About = () => {
   return (
     <div className="w-full py-[15%] px-[10%] md:py-[5%] md:px-[25%] flex flex-col justify-center items-center gap-[6vw] md:gap-[2vw]" id='about'>

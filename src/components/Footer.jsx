@@ -12,13 +12,13 @@ const Footer = () => {
         </div>
 
         {/* ------ Navigation ----- */}
-        <div className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw]">
+        <div className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw]  justify-start items-center gap-2 footerLinks">
           <Link
             to="about"
             smooth={true}
             offset={200}
             duration={1000}
-            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw]"
+            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw] tg"
           >
             ABOUT
           </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
             smooth={true}
             offset={200}
             duration={1000}
-            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw]"
+            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw] tg"
           >
             TOKENOMICS
           </Link>
@@ -36,7 +36,7 @@ const Footer = () => {
             smooth={true}
             offset={200}
             duration={1000}
-            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw]"
+            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw] tg"
           >
             NFTs
           </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
             smooth={true}
             offset={200}
             duration={1000}
-            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw]"
+            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw] tg "
           >
             ROADMAP
           </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
             smooth={true}
             offset={200}
             duration={1000}
-            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw]"
+            className="text-center  text-[#fff] flex text-[3vw] demo py-[2vw] px-[1.5vw] transition-all duration-300 md:py-[0.5vw] md:px-[0.7vw] md:text-[1.3vw] tg"
           >
             FAQ
           </Link>

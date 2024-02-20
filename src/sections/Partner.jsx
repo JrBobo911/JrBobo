@@ -1,8 +1,9 @@
 import React from 'react'
 import MEXCImg from '/src/assets/images/full-mexc-logo.png'
-import OpenSeaImg from '/src/assets/images/full-opensea-logo.png'
+// import OpenSeaImg from '/src/assets/images/full-opensea-logo.png'
 import LBankImg from '/src/assets/images/full-lbank-logo.png'
 import BlurImg from '/src/assets/images/blurlogo.png'
+import Pinksale from '/src/assets/images/pinksale.png'
 
 const Partner = () => {
   return (
@@ -12,7 +13,7 @@ const Partner = () => {
       </div>
         <div className='w-full flex justify-between items-center flex-wrap'>
             <div className='w-[25%] mt-[4vw] p-[1%]'><img src={MEXCImg} alt="MEXC"/></div>
-            <div className='w-[25%] mt-[4vw] p-[1%]'><img src={OpenSeaImg} alt="OpenSea"/></div>
+            <div className='w-[25%] mt-[4vw] p-[1%]'><img src={Pinksale} alt="OpenSea"/></div>
             <div className='w-[25%] mt-[4vw] p-[1%]'><img src={LBankImg} alt="LBank"/></div>
             <div className='w-[25%] mt-[4vw] p-[1%]'><img src={BlurImg} alt="Blur"/></div>
         </div>

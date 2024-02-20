@@ -5,13 +5,13 @@ import  BtnImg2 from '/src/assets/images/hero_btn2.png'
 
 const Hero = () => {
   return (
-    <div className="bg-hero-image w-full bg-cover bg-center bg-no-repeat h-[85vh] bg-scroll">
+    <div className="bg-hero-image w-full bg-cover bg-center bg-no-repeat h-[62vw] bg-scroll">
       <Header />
-      <div className="pt-[10vw] w-full flex justify-center items-center flex-col">
-        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke1 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center h1Animation">
+      <div className="pt-[10vw] w-full flex justify-center items-center flex-col mt-[-20px]">
+        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke2 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center h1Animation tracking-[-1px]">
           LET`S GET THIS 
         </div>    
-        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke1 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center h1Animation">
+        <div className="w-full  chibold  text-[8vw] md:text-[5vw] text-white stroke2 hover:text-[#4A8102]  font-[500] transition-all duration-1000 green-shadow  md:stroke2 text-center h1Animation mt-[-40px]">
            HONEY
         </div>    
         <div className="flex justify-center items-center flex-col md:flex-row">
